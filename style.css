@@ -1,0 +1,30 @@
+div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+    overflow: hidden;
+}
+
+.absolute {
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #73AD21;
+}
+
+.fondo{
+    background-image: url(https://media.admagazine.com/photos/61de539e089751617cd2fc74/16:9/pass/plantas.jpg); width: 500px; height: 500px; background-size: contain; padding: 50px;
+}
+
+.gradiente{
+    width: 500px;
+    height: 500px;
+    background-image: linear-gradient(to right, #cf2626,rgb(228, 166, 51),rgba(216, 216, 83, 0),green,blue,indigo,violet);
+}
+
+body{
+    background-color: aquamarine;
+}
